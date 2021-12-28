@@ -1,0 +1,62 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/banshee/Dokumente/tsatatur/RC3-Keyboard/Firmware/include",
+                "/home/banshee/Dokumente/tsatatur/RC3-Keyboard/Firmware/src",
+                "/home/banshee/Dokumente/tsatatur/RC3-Keyboard/Firmware/.pio/libdeps/micro/Keyboard/src",
+                "/home/banshee/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/banshee/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/banshee/.platformio/packages/framework-arduino-avr/variants/micro",
+                "/home/banshee/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/banshee/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/banshee/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/banshee/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/banshee/Dokumente/tsatatur/RC3-Keyboard/Firmware/include",
+                    "/home/banshee/Dokumente/tsatatur/RC3-Keyboard/Firmware/src",
+                    "/home/banshee/Dokumente/tsatatur/RC3-Keyboard/Firmware/.pio/libdeps/micro/Keyboard/src",
+                    "/home/banshee/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/banshee/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/banshee/.platformio/packages/framework-arduino-avr/variants/micro",
+                    "/home/banshee/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/banshee/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/banshee/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/banshee/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50204",
+                "ARDUINO_AVR_MICRO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "USB_VID=0x2341",
+                "USB_PID=0x8037",
+                "USB_PRODUCT=\"Arduino Micro\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                "__AVR_ATmega32U4__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/banshee/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega32u4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
