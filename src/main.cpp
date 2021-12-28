@@ -26,14 +26,14 @@
 #include <Arduino.h> 
 // ---------------------------------
 // Key definitions
-#define BUTTON_KEY1 "1"
-#define BUTTON_KEY2 "2"
-#define BUTTON_KEY3 "3"
-#define BUTTON_KEY4 "4"
-#define BUTTON_KEY5 "5"
-#define BUTTON_KEY6 "6"
-#define BUTTON_KEY7 "7"
-#define BUTTON_KEY8 "8"
+#define BUTTON_KEY1 '1'
+#define BUTTON_KEY2 '2'
+#define BUTTON_KEY3 '3'
+#define BUTTON_KEY4 '4'
+#define BUTTON_KEY5 '5'
+#define BUTTON_KEY6 '6'
+#define BUTTON_KEY7 '7'
+#define BUTTON_KEY8 '8'
  
 // Pin definitions
 #define BUTTON_PIN1 2
